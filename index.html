@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Simone Souza • Constelação Familiar</title>
-  <meta name="description" content="Constelação Familiar com Simone Souza — sessões individuais. Desbloqueie resultados com movimentos sistêmicos." />
+  <meta name="description" content="Constelação Familiar com Simone Souza — desbloqueie resultados com movimentos sistêmicos simples e profundos." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root{ --roxo:#6D28D9; --roxo-dark:#5B21B6; --azul:#1E3A8A; --cinza:#6B7280; }
@@ -12,113 +12,251 @@
     .btn-primary:hover{background:var(--roxo-dark)}
     .btn-outline{border:1px solid var(--azul);color:var(--azul);padding:.75rem 1.25rem;border-radius:1rem;display:inline-block}
     .btn-outline:hover{background:#EEF2FF}
-    .shadow-soft{box-shadow: 0 10px 30px rgba(2,6,23,.08)}
+    .shadow-soft{box-shadow:0 10px 30px rgba(2,6,23,.08)}
   </style>
 </head>
 <body class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
-  <header class="mx-auto max-w-6xl px-6 py-6 flex items-center justify-between">
+
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
     <div class="flex items-center gap-3">
-      <div class="h-9 w-9 rounded-2xl bg-[var(--azul)] text-white grid place-items-center">✨</div>
-      <div>
-        <p class="text-sm tracking-wide text-slate-500">Simone Souza</p>
-        <h1 class="text-base font-semibold text-[var(--azul)]">Constelação & Terapias</h1>
-      </div>
+      <img src="simone-portrait.jpg" alt="Simone Souza" class="h-9 w-9 rounded-2xl bg-[var(--azul)] text-white grid place-items-center" />
+      <span class="font-semibold">Simone Souza • Constelação & Terapias</span>
     </div>
-    <nav class="hidden md:flex items-center gap-4 text-sm">
-      <a href="#agenda" class="text-slate-600 hover:text-[var(--azul)]">Agenda</a>
-      <a href="#como-funciona" class="text-slate-600 hover:text-[var(--azul)]">Como funciona</a>
-      <a href="#depoimentos" class="text-slate-600 hover:text-[var(--azul)]">Depoimentos</a>
-      <a href="https://wa.me/5516981081680" target="_blank" class="btn-primary">WhatsApp</a>
+    <nav class="flex gap-6 text-sm">
+      <a href="#agenda" class="hover:text-[var(--azul)]">Agenda</a>
+      <a href="#como-funciona" class="hover:text-[var(--azul)]">Como funciona</a>
+      <a href="#depoimentos" class="hover:text-[var(--azul)]">Depoimentos</a>
+      <a href="https://wa.me/5516991816808" target="_blank" class="btn-primary">WhatsApp</a>
     </nav>
   </header>
 
-  <section class="mx-auto max-w-6xl px-6 py-10 md:py-16 grid md:grid-cols-2 gap-10 items-center">
+  <!-- Hero -->
+  <section class="text-center py-24 px-6 bg-gradient-to-r from-indigo-50 to-purple-50">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+      Desbloqueie seus resultados com<br />
+      movimentos sistêmicos simples e profundos.
+    </h1>
+    <p class="text-lg max-w-2xl mx-auto mb-8">
+      Atendimento com Simone Souza, terapeuta holística desde 2018. Para quem busca leveza na vida, nos negócios e no dinheiro.
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a href="https://wa.me/5516991816808" class="btn-primary">Agendar agora →</a>
+      <a href="#como-funciona" class="btn-outline">Como funciona</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="como-funciona" class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6 py-20">
+    <img src="simone-consulta-2.jpg" alt="Simone conduzindo atendimento" class="rounded-3xl w-full object-cover shadow-soft border border-slate-200" />
     <div>
-      <span class="inline-block text-xs tracking-widest uppercase text-slate-500 mb-3">Constelação Familiar</span>
-      <h2 class="text-3xl md:text-5xl font-bold leading-tight text-[var(--azul)]">Desbloqueie seus resultados com movimentos sistêmicos simples e profundos.</h2>
-      <p class="mt-4 text-slate-600 md:text-lg">Atendimento com Simone Souza, terapeuta holística desde 2018. Para quem busca leveza na vida, nos negócios e no dinheiro.</p>
-      <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <a href="https://wa.me/5516981081680?text=Quero%20constelar%20com%20você,%20Simone!" target="_blank" class="btn-primary text-center">Agendar agora →</a>
-        <a href="#como-funciona" class="btn-outline text-center">Como funciona</a>
-      </div>
-    </div>
-    <div class="md:pl-8">
-      <img src="assets/simone-portrait.jpg" alt="Simone Souza - Constelação Familiar" class="rounded-3xl w-full object-cover shadow-soft border border-slate-200" />
+      <h2 class="text-2xl md:text-3xl font-bold text-[var(--azul)] mb-4">Sobre a Simone</h2>
+      <p class="text-slate-600 leading-relaxed">
+        Sou terapeuta holística e consteladora familiar desde 2018. Minha missão é trazer leveza e clareza para sua vida, negócios e finanças, ajudando você a encontrar soluções com mais confiança.
+      </p>
     </div>
   </section>
 
-  <section id="como-funciona" class="mx-auto max-w-6xl px-6 py-12 grid lg:grid-cols-2 gap-8 items-start">
-    <div>
-      <h3 class="text-2xl md:text-3xl font-bold text-[var(--azul)]">O que você pode esperar</h3>
-      <p class="mt-2 text-slate-600 max-w-2xl">Um processo acolhedor e objetivo para aliviar pesos do passado, restaurar a ordem do sistema e abrir espaço para novas escolhas.</p>
-      <div class="mt-8 grid sm:grid-cols-2 gap-6">
-        <div class="rounded-3xl border border-slate-200 p-6">
-          <div class="h-10 w-10 rounded-2xl bg-indigo-50 grid place-items-center mb-4 text-[var(--azul)]">👥</div>
-          <h4 class="font-semibold text-lg text-[var(--azul)]">Pertencimento que cura</h4>
-          <p class="text-slate-600 mt-2">Reconecte-se às suas raízes e libere padrões que limitam seus resultados.</p>
-        </div>
-        <div class="rounded-3xl border border-slate-200 p-6">
-          <div class="h-10 w-10 rounded-2xl bg-indigo-50 grid place-items-center mb-4 text-[var(--azul)]">💰</div>
-          <h4 class="font-semibold text-lg text-[var(--azul)]">Prosperidade sistêmica</h4>
-          <p class="text-slate-600 mt-2">Destrave o fluxo do dinheiro e dos negócios com movimentos conscientes.</p>
-        </div>
-        <div class="rounded-3xl border border-slate-200 p-6">
-          <div class="h-10 w-10 rounded-2xl bg-indigo-50 grid place-items-center mb-4 text-[var(--azul)]">🗓️</div>
-          <h4 class="font-semibold text-lg text-[var(--azul)]">Sessões individuais</h4>
-          <p class="text-slate-600 mt-2">Um espaço confidencial e profundo para sua transformação pessoal e profissional.</p>
-        </div>
-        <div class="rounded-3xl border border-slate-200 p-6">
-          <div class="h-10 w-10 rounded-2xl bg-indigo-50 grid place-items-center mb-4 text-[var(--azul)]">🌱</div>
-          <h4 class="font-semibold text-lg text-[var(--azul)]">Integração</h4>
-          <p class="text-slate-600 mt-2">Apoio pós-sessão por 7 dias para consolidar os movimentos de solução.</p>
-        </div>
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="bg-slate-50 py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-[var(--azul)] mb-12">O que você pode esperar</h2>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <img src="simone-consulta-1.jpg" alt="Atendimento individual" class="rounded-xl mb-4 w-full h-64 object-cover" />
+        <p class="text-slate-600">
+          Um processo acolhedor e objetivo para aliviar pesos do passado, restaurar a ordem no sistema e abrir espaço para novas escolhas.
+        </p>
       </div>
-    </div>
-    <div class="lg:pl-6">
-      <img src="assets/simone-consulta-1.jpg" alt="Simone em atendimento de Constelação Familiar" class="rounded-3xl w-full object-cover shadow-soft border border-slate-200" />
-    </div>
-  </section>
-
-  <section id="agenda" class="mx-auto max-w-6xl px-6 py-12">
-    <div class="rounded-3xl border border-slate-200 p-6 md:p-8">
-      <h3 class="text-2xl font-bold text-[var(--azul)]">Sessão Individual</h3>
-      <p class="text-slate-600 mt-2">Atendimento online ou presencial. Duração média de 60–90 minutos.</p>
-      <ul class="mt-4 space-y-2 text-slate-700 list-disc list-inside">
-        <li>Foco personalizado</li>
-        <li>Confidencialidade total</li>
-        <li>Apoio pós‑sessão por 7 dias</li>
-      </ul>
-      <div class="mt-6">
-        <div class="text-3xl font-bold text-[var(--azul)]">R$ 497</div>
-        <p class="text-xs text-slate-500">Pix ou cartão em até 3x</p>
-        <div class="flex gap-3 mt-4 flex-wrap">
-          <a href="https://wa.me/5516981081680?text=Quero%20agendar%20sessão%20individual" target="_blank" class="btn-primary">Agendar</a>
-          <a href="https://checkout.nubank.com.br/PpsAOZRO9I10reti" target="_blank" class="btn-primary">Pagar agora</a>
-          <a href="mailto:simoneosouza3@gmail.com" class="btn-outline">Falar por e‑mail</a>
-        </div>
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <img src="simone-portrait.jpg" alt="Simone Souza" class="rounded-xl mb-4 w-full h-64 object-cover" />
+        <p class="text-slate-600">
+          Um trabalho transformador para liberar bloqueios emocionais e familiares, trazendo mais prosperidade, leveza e clareza.
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-6 pb-16 grid md:grid-cols-2 gap-8 items-center">
-    <div class="md:order-2">
-      <img src="assets/simone-consulta-2.jpg" alt="Simone conduzindo atendimento" class="rounded-3xl w-full object-cover shadow-soft border border-slate-200" />
-    </div>
-    <div class="md:pr-8">
-      <h3 class="text-2xl md:text-3xl font-bold text-[var(--azul)]">Sobre a Simone</h3>
-      <p class="mt-2 text-slate-600">Sou terapeuta holística e consteladora familiar desde 2018. Minha missão é trazer leveza e clareza para sua vida, negócios e finanças, com movimentos simples e profundos.</p>
-      <div class="mt-4 flex gap-3 flex-wrap">
-        <a href="https://wa.me/5516981081680" target="_blank" class="btn-primary">WhatsApp</a>
-        <a href="#agenda" class="btn-outline">Ver agenda</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="mx-auto max-w-6xl px-6 pb-10 text-sm text-slate-500">
-    <p>© <span id="year"></span> Simone Souza</p>
-    <p class="mt-1">Atendimento online e presencial • <a class="underline" href="mailto:simoneosouza3@gmail.com">simoneosouza3@gmail.com</a></p>
+  <!-- Footer -->
+  <footer class="text-center py-10 text-slate-500 text-sm">
+    <p>© <span id="year"></span> Simone Souza • Atendimento online e presencial</p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simone Souza • Constelação Familiar</title>
+  <meta name="description" content="Constelação Familiar com Simone Souza — desbloqueie resultados com movimentos sistêmicos simples e profundos." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --roxo:#6D28D9; --roxo-dark:#5B21B6; --azul:#1E3A8A; --cinza:#6B7280; }
+    .btn-primary{background:var(--roxo);color:#fff;padding:.75rem 1.25rem;border-radius:1rem;display:inline-block}
+    .btn-primary:hover{background:var(--roxo-dark)}
+    .btn-outline{border:1px solid var(--azul);color:var(--azul);padding:.75rem 1.25rem;border-radius:1rem;display:inline-block}
+    .btn-outline:hover{background:#EEF2FF}
+    .shadow-soft{box-shadow:0 10px 30px rgba(2,6,23,.08)}
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
+
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="simone-portrait.jpg" alt="Simone Souza" class="h-9 w-9 rounded-2xl bg-[var(--azul)] text-white grid place-items-center" />
+      <span class="font-semibold">Simone Souza • Constelação & Terapias</span>
+    </div>
+    <nav class="flex gap-6 text-sm">
+      <a href="#agenda" class="hover:text-[var(--azul)]">Agenda</a>
+      <a href="#como-funciona" class="hover:text-[var(--azul)]">Como funciona</a>
+      <a href="#depoimentos" class="hover:text-[var(--azul)]">Depoimentos</a>
+      <a href="https://wa.me/5516991816808" target="_blank" class="btn-primary">WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-24 px-6 bg-gradient-to-r from-indigo-50 to-purple-50">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+      Desbloqueie seus resultados com<br />
+      movimentos sistêmicos simples e profundos.
+    </h1>
+    <p class="text-lg max-w-2xl mx-auto mb-8">
+      Atendimento com Simone Souza, terapeuta holística desde 2018. Para quem busca leveza na vida, nos negócios e no dinheiro.
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a href="https://wa.me/5516991816808" class="btn-primary">Agendar agora →</a>
+      <a href="#como-funciona" class="btn-outline">Como funciona</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="como-funciona" class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6 py-20">
+    <img src="simone-consulta-2.jpg" alt="Simone conduzindo atendimento" class="rounded-3xl w-full object-cover shadow-soft border border-slate-200" />
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-[var(--azul)] mb-4">Sobre a Simone</h2>
+      <p class="text-slate-600 leading-relaxed">
+        Sou terapeuta holística e consteladora familiar desde 2018. Minha missão é trazer leveza e clareza para sua vida, negócios e finanças, ajudando você a encontrar soluções com mais confiança.
+      </p>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="bg-slate-50 py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-[var(--azul)] mb-12">O que você pode esperar</h2>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <img src="simone-consulta-1.jpg" alt="Atendimento individual" class="rounded-xl mb-4 w-full h-64 object-cover" />
+        <p class="text-slate-600">
+          Um processo acolhedor e objetivo para aliviar pesos do passado, restaurar a ordem no sistema e abrir espaço para novas escolhas.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <img src="simone-portrait.jpg" alt="Simone Souza" class="rounded-xl mb-4 w-full h-64 object-cover" />
+        <p class="text-slate-600">
+          Um trabalho transformador para liberar bloqueios emocionais e familiares, trazendo mais prosperidade, leveza e clareza.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-10 text-slate-500 text-sm">
+    <p>© <span id="year"></span> Simone Souza • Atendimento online e presencial</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simone Souza • Constelação Familiar</title>
+  <meta name="description" content="Constelação Familiar com Simone Souza — desbloqueie resultados com movimentos sistêmicos simples e profundos." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --roxo:#6D28D9; --roxo-dark:#5B21B6; --azul:#1E3A8A; --cinza:#6B7280; }
+    .btn-primary{background:var(--roxo);color:#fff;padding:.75rem 1.25rem;border-radius:1rem;display:inline-block}
+    .btn-primary:hover{background:var(--roxo-dark)}
+    .btn-outline{border:1px solid var(--azul);color:var(--azul);padding:.75rem 1.25rem;border-radius:1rem;display:inline-block}
+    .btn-outline:hover{background:#EEF2FF}
+    .shadow-soft{box-shadow:0 10px 30px rgba(2,6,23,.08)}
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
+
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="simone-portrait.jpg" alt="Simone Souza" class="h-9 w-9 rounded-2xl bg-[var(--azul)] text-white grid place-items-center" />
+      <span class="font-semibold">Simone Souza • Constelação & Terapias</span>
+    </div>
+    <nav class="flex gap-6 text-sm">
+      <a href="#agenda" class="hover:text-[var(--azul)]">Agenda</a>
+      <a href="#como-funciona" class="hover:text-[var(--azul)]">Como funciona</a>
+      <a href="#depoimentos" class="hover:text-[var(--azul)]">Depoimentos</a>
+      <a href="https://wa.me/5516991816808" target="_blank" class="btn-primary">WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-24 px-6 bg-gradient-to-r from-indigo-50 to-purple-50">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+      Desbloqueie seus resultados com<br />
+      movimentos sistêmicos simples e profundos.
+    </h1>
+    <p class="text-lg max-w-2xl mx-auto mb-8">
+      Atendimento com Simone Souza, terapeuta holística desde 2018. Para quem busca leveza na vida, nos negócios e no dinheiro.
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a href="https://wa.me/5516991816808" class="btn-primary">Agendar agora →</a>
+      <a href="#como-funciona" class="btn-outline">Como funciona</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="como-funciona" class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6 py-20">
+    <img src="simone-consulta-2.jpg" alt="Simone conduzindo atendimento" class="rounded-3xl w-full object-cover shadow-soft border border-slate-200" />
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-[var(--azul)] mb-4">Sobre a Simone</h2>
+      <p class="text-slate-600 leading-relaxed">
+        Sou terapeuta holística e consteladora familiar desde 2018. Minha missão é trazer leveza e clareza para sua vida, negócios e finanças, ajudando você a encontrar soluções com mais confiança.
+      </p>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="bg-slate-50 py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-[var(--azul)] mb-12">O que você pode esperar</h2>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <img src="simone-consulta-1.jpg" alt="Atendimento individual" class="rounded-xl mb-4 w-full h-64 object-cover" />
+        <p class="text-slate-600">
+          Um processo acolhedor e objetivo para aliviar pesos do passado, restaurar a ordem no sistema e abrir espaço para novas escolhas.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <img src="simone-portrait.jpg" alt="Simone Souza" class="rounded-xl mb-4 w-full h-64 object-cover" />
+        <p class="text-slate-600">
+          Um trabalho transformador para liberar bloqueios emocionais e familiares, trazendo mais prosperidade, leveza e clareza.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-10 text-slate-500 text-sm">
+    <p>© <span id="year"></span> Simone Souza • Atendimento online e presencial</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
